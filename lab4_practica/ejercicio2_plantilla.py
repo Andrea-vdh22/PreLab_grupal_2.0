@@ -40,16 +40,23 @@ def pedir_entero_en_rango(mensaje, minimo, maximo):
 
 # SECCIÓN C: operaciones de inventario
 
+
 def retirar_unidades(disponible, cantidad):
-    # TODO C1:
-    # Si no hay unidades suficientes, informar y retornar disponible.
-    # Si hay suficientes, retornar disponible - cantidad.
-    return disponible
+    # Si no hay unidades suficientes, informar y retornar disponible
+    if cantidad > disponible:
+        print(f"Error: Stock insuficiente. Solo hay {disponible} unidades disponibles.")
+        return disponible
+    # Si hay suficientes, retornar disponible - cantidad
+    return disponible - cantidad
 
 
 def reponer_unidades(disponible, cantidad):
-    # TODO C2: retornar disponible + cantidad.
-    return disponible
+    # Retornar disponible + cantidad
+    return disponible + cantidad
+
+
+
+
 
 
 # SECCIÓN D: programa principal

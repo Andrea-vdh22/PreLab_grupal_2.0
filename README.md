@@ -11,3 +11,6 @@
 
 ## Flujo de Trabajo
 Se utilizó un flujo de trabajo colaborativo en GitHub en ramas (*feature branches*), pruebas locales, Pull Requests y revisión de código antes de unificar a la rama principal (`main`).
+### Corrida en Frío - Solangel
+
+![Corrida en frío](./corrida_solangel.jpeg)
